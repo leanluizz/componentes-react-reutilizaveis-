@@ -26,7 +26,8 @@
     src: url("../fonts/CoffeesDemoRegular.ttf");
 }
 body{
- background-color: var(--bg-color-primary);
+ background-image: url('../image/background.jpg');
+
 }
 li{
     list-style-type: none;

@@ -1,7 +1,7 @@
 export default function WhatsApp({ whatsappNumber,classeIcon,icon }) {
     const imgStyle = {
         position: "fixed",
-        bottom: "100px",
+        bottom: "20px",
         right:"5%",
         height: "auto", // Para manter a proporção,
         zIndex:"3"

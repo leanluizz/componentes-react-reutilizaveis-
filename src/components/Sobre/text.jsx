@@ -1,12 +1,13 @@
-export default function Text ({font, icon, imgCardDown, classText}){
+export default function Text ({Background,Color,font, icon, imgCardDown, classText}){
     const About = {
-        background:"#f9f9f9",
+        background:Background,
         width:"90%",
         margin:"auto",
         borderRadius:"16px"
     }
     const Text = {
-        fontFamily:font
+        fontFamily:font,
+        color:Color
     }
     const Card = {
         display:"flex", 
@@ -22,8 +23,8 @@ export default function Text ({font, icon, imgCardDown, classText}){
     return (
         <div style={About}>
             <div style={Card}>
-            <img src={icon} alt="" />
-            <h1>Coffe3R</h1>
+            <a href="/"><img src={icon} alt="icon" /></a>
+            <h1 style={{color:Color}}>Coffe3R</h1>
             </div>
             <h1 className={classText} style={Text}>
              Bem-vindo ao Coffe3R: O Refúgio Urbano para Amantes do Café! 

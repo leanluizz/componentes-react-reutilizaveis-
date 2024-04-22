@@ -61,7 +61,7 @@ ImageThree={Bolo}
 WidthImg={"80%"}
 FontSize={"2.5vw"}
 Animate={"true"}
-Colors={"black"}
+Colors={"white"}
 classTexts={"fst-italic"}
 />
 <Contact
@@ -74,7 +74,7 @@ font={"Coffee"}
 text={"Aluguns doces e cafés do nosso cardápio . . ."}
 font={"Coffee"}
 Color={"white"}
-ColorTitle={"black"}
+ColorTitle={"white"}
 imgOne={CoffeeSimple}
 textOneFirst={"Café Simples"}
 textOneSecond={"R$12,00"}
