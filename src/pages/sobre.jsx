@@ -27,13 +27,11 @@ const Home = () => {
             Color={"black"}
             font={"Coffee"}
             imgCardDown={Person}
-            classText={"animate__animated animate__pulse"}
             />
             <WhatsAppIcon icon={WhatsApp} Width={"500px"} classeIcon={"animate__animated animate__flip"} />
             </div>
             <Local 
                 img={Coffee}
-                Background={""}
                 Border={"2px solid white"}
                 Color={"white"}
                 Font={"Arial"}

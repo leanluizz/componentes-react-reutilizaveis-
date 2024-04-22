@@ -1,7 +1,7 @@
 export default function Text ({Background,Color,font, icon, imgCardDown, classText}){
     const About = {
         background:Background,
-        width:"90%",
+        width:"100%",
         margin:"auto",
         borderRadius:"16px"
     }
@@ -18,7 +18,7 @@ export default function Text ({Background,Color,font, icon, imgCardDown, classTe
     const imgCardDownStyle = {
         position:"relative",
         top:"50px",
-        left:"-10%"
+        left:"-3%"
     }
     return (
         <div style={About}>
