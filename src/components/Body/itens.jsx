@@ -28,7 +28,7 @@ export default function Itens(
         fontFamily:font,
         color:Color,
         padding:"5%",
-        marginTop:"60%"
+        marginTop:"60%",
     }
     const grid = {
         display: window.innerWidth <= 700 ? "flex" : "grid",
@@ -43,7 +43,8 @@ export default function Itens(
     const img = {
         width:WidthImg,
         height:HeightImg,
-        borderRadius:"12px"
+        borderRadius:"16px",
+        padding:"6%"
     }
     return (
         <div>

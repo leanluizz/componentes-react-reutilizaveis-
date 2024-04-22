@@ -73,7 +73,7 @@ font={"Coffee"}
 <Itens
 text={"Aluguns doces e cafés do nosso cardápio . . ."}
 font={"Coffee"}
-Color={"black"}
+Color={"white"}
 imgOne={CoffeeSimple}
 textOneFirst={"Café Simples"}
 textOneSecond={"R$12,00"}
