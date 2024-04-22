@@ -74,6 +74,7 @@ font={"Coffee"}
 text={"Aluguns doces e cafés do nosso cardápio . . ."}
 font={"Coffee"}
 Color={"white"}
+ColorTitle={"black"}
 imgOne={CoffeeSimple}
 textOneFirst={"Café Simples"}
 textOneSecond={"R$12,00"}

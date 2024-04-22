@@ -2,7 +2,8 @@ export default function Itens(
     {
     text, 
     font, 
-    Color, 
+    Color,
+    ColorTitle, 
     imgOne,
     textOneFirst,textOneSecond,
 
@@ -26,7 +27,7 @@ export default function Itens(
 }){
     const title = {
         fontFamily:font,
-        color:Color,
+        color:ColorTitle,
         padding:"5%",
         marginTop:"60%",
     }
