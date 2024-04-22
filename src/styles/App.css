@@ -1,0 +1,36 @@
+:root{
+    --bg-color-primary: rgba(0, 0, 0, 0.886);
+    --bg-color-secundary: white;
+    --bg-color-details: rgba(0, 0, 0, 0.694);
+}
+@keyframes Down {
+    0%{
+        opacity: 0%;
+        padding-top: 100px;
+    }
+    100%{
+        opacity: 100%;
+        padding-top:0px;
+    }
+}
+@keyframes Rotate {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+@font-face {
+    font-family: Coffee;
+    src: url("../fonts/CoffeesDemoRegular.ttf");
+}
+body{
+ background-color: var(--bg-color-primary);
+}
+li{
+    list-style-type: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}

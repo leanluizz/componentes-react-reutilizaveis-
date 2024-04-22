@@ -1,0 +1,32 @@
+footer{
+    display:flex;
+    flex-direction: column;
+    margin-top: 105px;
+    padding-top: 30px;
+    border-top: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.791);
+}
+footer div {
+    margin: auto;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+#year{
+background-color: black;
+width: 100%;
+margin: auto;
+}
+@media (max-width:700px) {
+    footer div .github, .linkedin{
+        width: 10vw;
+    }
+}
+footer div img{
+    width: 5vw;
+    margin: auto;
+}
+footer div img:hover{
+    filter: opacity(80%);
+}

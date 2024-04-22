@@ -1,0 +1,10 @@
+body{
+    background-image: url("/src/image/Background/bg.jpg");
+}
+h1{
+    text-align: center;
+    padding: 1%;
+}
+.card{
+    padding: 50px;
+}
