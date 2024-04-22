@@ -28,7 +28,7 @@ export default function Itens(
         fontFamily:font,
         color:Color,
         padding:"5%",
-        marginTop:"20%"
+        marginTop:"60%"
     }
     const grid = {
         display: window.innerWidth <= 700 ? "flex" : "grid",
