@@ -1,6 +1,17 @@
 import { useState } from "react";
 
-export default function Apresentacao({ Animate ,ImageOne, ImageTwo, ImageThree, WidthImg, FontSize }) {
+export default function Apresentacao(
+    { 
+        Colors, 
+        Animate,
+        ImageOne,
+        ImageTwo, 
+        ImageThree, 
+        WidthImg, 
+        FontSize,
+        Font,
+        classTexts
+    }) {
     const [State , setState] = useState(
         window.innerWidth <= 1000 ? 'none' : 'none'
     )
@@ -60,10 +71,10 @@ export default function Apresentacao({ Animate ,ImageOne, ImageTwo, ImageThree, 
                 <img style={{width:WidthImg ,borderRadius:"100%"}} src={ImageOne} alt="photo" />
             </div>
             <div style={{overflow:"hidden",textAlign:"center", position:"relative", top:"25%"}}>
-                <p style={{wordBreak:"break-word",fontSize:FontSize, fontWeight:"bold"}}>"Bem-vindo à nossa cafeteria, onde cada xícara conta uma história e cada aroma desperta uma memória. Entre como um cliente, saia como um amigo."</p>
+                <p className={classTexts} style={{fontFamily:Font,color:Colors ,wordBreak:"break-word",fontSize:FontSize, fontWeight:"bold"}}>"Bem-vindo à nossa cafeteria, onde cada xícara conta uma história e cada aroma desperta uma memória. Entre como um cliente, saia como um amigo."</p>
             </div>
             <div style={{overflow:"hidden",textAlign:"center", position:"relative", top:"25%"}}>
-                <p style={{wordBreak:"break-word",fontSize:FontSize, fontWeight:"bold"}}>"Na nossa cafeteria, não são apenas os grãos que são excelentes, mas também a equipe que os prepara. Venha desfrutar de um serviço de excelência acompanhado do melhor café."</p>
+                <p className={classTexts} style={{fontFamily:Font,color:Colors ,wordBreak:"break-word",fontSize:FontSize, fontWeight:"bold"}}>"Na nossa cafeteria, não são apenas os grãos que são excelentes, mas também a equipe que os prepara. Venha desfrutar de um serviço de excelência acompanhado do melhor café."</p>
             </div>
             <div>
                 <img style={{width:WidthImg ,borderRadius:"100%"}} src={ImageTwo} alt="photo" />
@@ -72,7 +83,7 @@ export default function Apresentacao({ Animate ,ImageOne, ImageTwo, ImageThree, 
             <img style={{width:WidthImg ,borderRadius:"100%"}} src={ImageThree} alt="photo" />
             </div>
             <div style={{overflow:"hidden",textAlign:"center", position:"relative", top:"25%"}}>
-            <p style={{wordBreak:"break-word",fontSize:FontSize, fontWeight:"bold"}}>"Delicie-se com os mais requintados doces, eleitos como os melhores pelos nossos clientes apreciadores de sabor e qualidade!"</p>
+            <p className={classTexts} style={{fontFamily:Font,color:Colors ,wordBreak:"break-word",fontSize:FontSize, fontWeight:"bold"}}>"Delicie-se com os mais requintados doces, eleitos como os melhores pelos nossos clientes apreciadores de sabor e qualidade!"</p>
             </div>
         </div>
     );

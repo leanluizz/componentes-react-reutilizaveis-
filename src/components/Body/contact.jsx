@@ -17,7 +17,8 @@ export default function Contact({font,text,img, contact, widthText}){
     }
     const func = {
         position:"relative",
-        top:"100px"
+        top:"100px",
+        width:"100%"
     }
     return(
         <div style={box}>

@@ -1,7 +1,6 @@
 //Styles
 import './styles/App.css';
 import './styles/Footer.css';
-
 //Components
 import Footer from './components/Footer';
 import Nav from './components/Menu/nav';
@@ -36,17 +35,14 @@ export default function Router (){
     <div className="App">
       <WhatsAppIcon icon={WhatsApp} Width={"500px"} classeIcon={"animate__animated animate__flip"} />
 <Nav 
-classLinks={"nav"}
+classLinks={"nav bg-dark"}
 icon={Icon}
 linkFour={"Sobre nós"}
 linkFourhref={"/Sobre"}
 linkFive={"Trabalhe Conosco"}
-linkOneDropDown={"Sobre nós"}
-linkOneDD={"/Sobre"}
-linkTwoDropDown={"Trabalhe conosco"}
-linkTwoDD={"/Trabalhe-Conosco"}
 colors={"black"}
 textdecoration={"none"}
+name={"CLick"}
 />
 <Mosaico
 classOne={"animate__slower	1s animate__animated animate__flipInY"}
@@ -65,6 +61,8 @@ ImageThree={Bolo}
 WidthImg={"80%"}
 FontSize={"2.5vw"}
 Animate={"true"}
+Colors={"black"}
+classTexts={"fst-italic"}
 />
 <Contact
 img={Funcionarios}
@@ -75,7 +73,7 @@ font={"Coffee"}
 <Itens
 text={"Aluguns doces e cafés do nosso cardápio . . ."}
 font={"Coffee"}
-Color={"white"}
+Color={"black"}
 imgOne={CoffeeSimple}
 textOneFirst={"Café Simples"}
 textOneSecond={"R$12,00"}
