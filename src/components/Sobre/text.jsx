@@ -16,6 +16,7 @@ export default function Text ({Background,Color,font, icon, imgCardDown, classTe
         padding:"50px"
     }
     const imgCardDownStyle = {
+        width:"25%",
         position:"relative",
         top:"50px",
         left:"-3%"
