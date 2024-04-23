@@ -55,23 +55,6 @@ ImageTwo={CafeDesenhado}
 ImageThree={CopoCafé}
 ImageFour={SalaCafe}
 />
-<Grid
-ImageOne={DoorCafe}
-ImageTwo={PeopleCoffee}
-ImageThree={Bolo}
-WidthImg={"80%"}
-FontSize={"2.5vw"}
-Animate={"true"}
-Colors={"white"}
-classTexts={"fst-italic"}
-/>
-<Contact
-img={Funcionarios}
-contact={WhatsApp}
-text={"Estamos a apenas uma mensagem de distância no WhatsApp! Faça seu pedido ou tire suas dúvidas agora mesmo."}
-font={"Coffee"}
-Background={"white"}
-/>
 <Itens
 classTitle={"title"}
 text={"Alguns doces e cafés do nosso cardápio . . ."}
@@ -96,6 +79,23 @@ textFiveSecond={"R$12,00"}
 imgSix={Chococake}
 textSixFirst={"ChocoCake"}
 textSixSecond={"R$14,00"}
+/>
+<Grid
+ImageOne={DoorCafe}
+ImageTwo={PeopleCoffee}
+ImageThree={Bolo}
+WidthImg={"80%"}
+FontSize={"2.5vw"}
+Animate={"true"}
+Colors={"white"}
+classTexts={"fst-italic"}
+/>
+<Contact
+img={Funcionarios}
+contact={WhatsApp}
+text={"Estamos a apenas uma mensagem de distância no WhatsApp! Faça seu pedido ou tire suas dúvidas agora mesmo."}
+font={"Coffee"}
+Background={"white"}
 />
 <Footer
 linkedin={"https://www.linkedin.com/in/leandro-luiz-a022131bb/"}
