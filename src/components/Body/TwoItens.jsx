@@ -1,12 +1,14 @@
-export default function Contact({font,text,img, contact, widthText}){
+export default function Contact({Reverse, Background, font,text,img, contact, widthText}){
     const box ={
         display:window.innerWidth < 700 ? "" : "flex",
+        flexDirection:Reverse ? "row-reverse" : "",
         justifyContent:"space-between",
-        background:"white",
+        background:Background,
     }
     const boxChildren = {
         marginLeft:"5%",
-        display:"flex", alignItems:"center"
+        display:"flex", 
+        alignItems:"center"
         }
     const texto = {
         padding:"20px",

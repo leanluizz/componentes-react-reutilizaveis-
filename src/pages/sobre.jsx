@@ -7,12 +7,15 @@ import Text from '../components/Sobre/text';
 import Local from '../components/Sobre/local';
 import WhatsAppIcon from '../components/WhatsAppIcon/whatsappIcon';
 import Footer from '../components/Footer';
+import AnimateImg from '../components/Sobre/animateImage';
 
 //Images
 import Icon from '../image/Nav/icon-menu.png';
 import Person from '../image/Sobre/pessoa-servindo.png';
 import WhatsApp from '../image/Contato/whatsappIcon.png';
 import Coffee from '../image/Sobre/coffee.jpg';
+import Servindo from '../image/Sobre/servindo.png';
+import Contact from '../components/Body/TwoItens';
 
 //Animate
 import 'animate.css'
@@ -43,6 +46,13 @@ const Home = () => {
                 bairro={"Bairro -"}
                 rua={"rua -"}
                 n={"n"}
+            />
+            <Contact 
+            img={Servindo}
+            text={"Horário de funcionamento: 08h ás 21h..."}
+            font={"Coffee"}
+            Background={"#f9f9f9f9"}
+            Reverse={"true"}
             />
             <Footer
             linkedin={"https://www.linkedin.com/in/leandro-luiz-a022131bb/"}

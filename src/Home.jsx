@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Nav from './components/Menu/nav';
 import Mosaico from './components/Body/mosaico';
 import Grid from './components/Body/apresentacao';
-import Contact from './components/Body/contact';
+import Contact from './components/Body/TwoItens';
 import WhatsAppIcon from './components/WhatsAppIcon/whatsappIcon';
 import Itens from './components/Body/itens';
 
@@ -69,9 +69,11 @@ img={Funcionarios}
 contact={WhatsApp}
 text={"Estamos a apenas uma mensagem de distância no WhatsApp! Faça seu pedido ou tire suas dúvidas agora mesmo."}
 font={"Coffee"}
+Background={"white"}
 />
 <Itens
-text={"Aluguns doces e cafés do nosso cardápio . . ."}
+classTitle={"title"}
+text={"Alguns doces e cafés do nosso cardápio . . ."}
 font={"Coffee"}
 Color={"white"}
 ColorTitle={"white"}

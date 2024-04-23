@@ -23,13 +23,14 @@ export default function Itens(
     textSixFirst,textSixSecond, 
 
     WidthImg,
-    HeightImg
+    HeightImg,
+
+    classTitle
 }){
     const title = {
         fontFamily:font,
         color:ColorTitle,
         padding:"5%",
-        marginTop:"60%",
     }
     const grid = {
         display: window.innerWidth <= 700 ? "flex" : "grid",
@@ -49,7 +50,7 @@ export default function Itens(
     }
     return (
         <div>
-            <h1 style={title}>{text}</h1>
+            <h1 className={classTitle} style={title}>{text}</h1>
             <div style={grid}>
                     <div>
                     <img style={img} src={imgOne} alt="" />

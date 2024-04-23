@@ -6,7 +6,13 @@ h1{
     div .card{
         padding: 0px;
     }
+    div .title{
+        margin-top: 60%;
+    }
 }
 .card{
     padding: 20px;
+}
+.title{
+    margin-top: 20%;
 }
