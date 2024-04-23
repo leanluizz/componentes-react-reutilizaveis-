@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 export default function Mosaico(
 {
     ImageOne,
@@ -10,10 +11,30 @@ export default function Mosaico(
     classThree,
     classFour
 }){
-    const DivPai = {
+    useEffect(() => {
+        window.addEventListener('resize', function() {
+            // Esta função será chamada sempre que houver uma alteração no tamanho da tela
+        
+            // Recupere o novo tamanho da tela
+            var novaLargura = window.innerWidth;
+           if (novaLargura <= 800) {
+            setDivPai({
+                display:"flex",
+                flexDirection:  "column",
+            })
+           }
+           else{
+            setDivPai({
+                display:"flex",
+                flexDirection: "row",
+            })
+           }
+        });
+    }, [])
+    const [DivPai, setDivPai] = useState({
         display:"flex",
         flexDirection: window.innerWidth <= 800 ? "column" : "row",
-    }
+    })
     const Img = {
         width: window.innerWidth <= 800 ? "100%" : "25%",
         height:"100vh"

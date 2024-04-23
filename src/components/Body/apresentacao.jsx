@@ -12,6 +12,7 @@ export default function Apresentacao(
         Font,
         classTexts
     }) {
+        
     const [State , setState] = useState(
         window.innerWidth <= 1000 ? 'none' : 'none'
     )

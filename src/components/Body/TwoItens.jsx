@@ -1,10 +1,37 @@
+import { useState, useEffect } from "react"
+
 export default function Contact({Reverse, Background, font,text,img, contact, widthText}){
-    const box ={
-        display:window.innerWidth < 700 ? "" : "flex",
+    useEffect(() => {
+        window.addEventListener('resize', function() {
+            // Esta função será chamada sempre que houver uma alteração no tamanho da tela
+        
+            // Recupere o novo tamanho da tela
+            var novaLargura = window.innerWidth;
+           if (novaLargura <= 700) {
+                setbox({
+                    display:"",
+                    flexDirection:Reverse ? "row-reverse" : "",
+                    justifyContent:"space-between",
+                    background:Background,
+                })
+           }
+           else{
+            setbox({
+                display:"flex",
+                flexDirection:Reverse ? "row-reverse" : "",
+                justifyContent:"space-between",
+                background:Background,
+            })
+           }
+        });
+    }, [])
+    
+    const [box, setbox] = useState({
+        display: window.innerWidth <= 700 ? "" : "flex",
         flexDirection:Reverse ? "row-reverse" : "",
         justifyContent:"space-between",
         background:Background,
-    }
+    })
     const boxChildren = {
         marginLeft:"5%",
         display:"flex", 

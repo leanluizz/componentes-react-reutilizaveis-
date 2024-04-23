@@ -35,7 +35,8 @@ export default function Router (){
     <div className="App">
       <WhatsAppIcon icon={WhatsApp} Width={"500px"} classeIcon={"animate__animated animate__flip"} />
 <Nav 
-classLinks={"nav bg-dark"}
+classLinks={"animate__animated animate__jello nav"}
+classIcon={"animate__animated animate__jello"}
 icon={Icon}
 linkFour={"Sobre nós"}
 linkFourhref={"/Sobre"}

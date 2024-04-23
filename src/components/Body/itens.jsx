@@ -1,3 +1,4 @@
+import { useState ,useEffect } from "react";
 export default function Itens(
     {
     text, 
@@ -27,12 +28,46 @@ export default function Itens(
 
     classTitle
 }){
+
+    useEffect(() => {
+        window.addEventListener('resize', function() {
+            // Esta função será chamada sempre que houver uma alteração no tamanho da tela
+        
+            // Recupere o novo tamanho da tela
+            var novaLargura = window.innerWidth;
+           if (novaLargura <= 1000) {
+                setgrid({
+                    display:"flex",
+                    flexDirection:"column",
+                    gridTemplateColumns: "repeat(3, 1fr)",
+                    background:"black",
+                    textAlign:"center",
+                    padding:"5%",
+                    color:Color,
+                    fontFamily:font
+                })
+           }
+           else{
+            setgrid({
+                display:"grid",
+                flexDirection:"column",
+                gridTemplateColumns: "repeat(3, 1fr)",
+                background:"black",
+                textAlign:"center",
+                padding:"5%",
+                color:Color,
+                fontFamily:font
+            })
+           }
+        });
+    }, [])
+
     const title = {
         fontFamily:font,
         color:ColorTitle,
         padding:"5%",
     }
-    const grid = {
+    const [grid, setgrid] = useState({
         display: window.innerWidth <= 700 ? "flex" : "grid",
         flexDirection:"column",
         gridTemplateColumns: "repeat(3, 1fr)",
@@ -41,7 +76,7 @@ export default function Itens(
         padding:"5%",
         color:Color,
         fontFamily:font
-    }
+    })
     const img = {
         width:WidthImg,
         height:HeightImg,
