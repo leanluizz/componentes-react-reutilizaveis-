@@ -119,7 +119,7 @@ export default function Navbar({
             </div>
         </Offcanvas.Body>
       </Offcanvas>
-      <a href="/">
+      <a href={window.innerWidth <= 700 ? null : "/"}>
         <img onClick={() => window.innerWidth <= 700 ? handleShow() : null} style={iconStyle} className={classIcon} src={icon} alt="photo" />          
       </a>
             <div style={links}>
