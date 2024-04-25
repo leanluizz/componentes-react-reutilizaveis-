@@ -43,7 +43,7 @@ linkFourhref={"/Sobre"}
 linkFive={"Trabalhe Conosco"}
 colors={"black"}
 textdecoration={"none"}
-name={"CLick"}
+TitleIcon={"Coffe3R"}
 />
 <Mosaico
 classOne={"animate__slower	1s animate__animated animate__flipInY"}
@@ -85,7 +85,7 @@ ImageOne={DoorCafe}
 ImageTwo={PeopleCoffee}
 ImageThree={Bolo}
 WidthImg={"80%"}
-FontSize={"2.5vw"}
+FontSize={"30px"}
 Animate={"true"}
 Colors={"white"}
 classTexts={"fst-italic"}

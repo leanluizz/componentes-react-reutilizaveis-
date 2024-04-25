@@ -21,8 +21,8 @@ export default function Navbar({
     colors,
     textdecoration,
 
-    name,
-    ...props
+    TitleIcon,
+
 }) {
     useEffect(() => {
         window.addEventListener('resize', function() {
@@ -83,8 +83,8 @@ export default function Navbar({
     }
     const iconStyle = {
         cursor:"pointer",
-        padding:"1% 0% 0% 5%", 
-        margin:"auto"
+        padding:"1% 0% 0% 10%", 
+        margin:"auto",
     }
 
     return (
@@ -107,7 +107,7 @@ export default function Navbar({
         href="/">
         <img style={iconStyle} className={classIcon} src={icon} alt="" />
         </a>
-          <Offcanvas.Title>Coff3R</Offcanvas.Title>
+          <Offcanvas.Title>{TitleIcon}</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
         <div>
@@ -119,9 +119,12 @@ export default function Navbar({
             </div>
         </Offcanvas.Body>
       </Offcanvas>
-      <a href={window.innerWidth <= 700 ? null : "/"}>
+      <div style={{display:"flex", alignItems:"center", marginLeft:"10%"}}>
+      <a style={{textDecoration:"none"}} href={window.innerWidth <= 700 ? null : "/"}>
         <img onClick={() => window.innerWidth <= 700 ? handleShow() : null} style={iconStyle} className={classIcon} src={icon} alt="photo" />          
-      </a>
+        </a>
+        <h1 style={{color:colors, padding:"3%"}}>{TitleIcon}</h1>
+      </div>
             <div style={links}>
                 <a style={link} href={linkOnehref}><li className={classLinks}>{linkOne}</li></a>
                 <a style={link} href={linkTwohref}><li className={classLinks}>{linkTwo}</li></a>

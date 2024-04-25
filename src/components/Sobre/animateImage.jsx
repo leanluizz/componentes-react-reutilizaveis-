@@ -8,28 +8,41 @@ function JustifiedExample({
     imgTwo, 
     titleThree,
     imgThree,
-    defaultKey
+    defaultKey,
+    TopSvgFullScreen
 }) {
     const imgStyle = {
-        width:"100%"
+        width:"100%",
     }
+
+      
+    function FullScreen(e) {
+
+    }
+
   return (
+    <>
+
     <Tabs
       defaultActiveKey={defaultKey}
       id="justify-tab-example"
-      className="mb-5"
+      className="bg-light mb-5"
       justify
     >
       <Tab eventKey={titleOne} title={titleOne}>
-        <img style={imgStyle} src={imgOne} alt="photo" />
+        <img className='img-fluid' onClick={FullScreen} style={imgStyle} src={imgOne} alt="photo" />
+        
       </Tab>
       <Tab eventKey={titleTwo} title={titleTwo}>
-      <img style={imgStyle} src={imgTwo} alt="photo" />
+      <img className='img-fluid' onClick={FullScreen} style={imgStyle} src={imgTwo} alt="photo" />
+     
       </Tab>
       <Tab eventKey={titleThree} title={titleThree}>
-      <img style={imgStyle} src={imgThree} alt="photo" />
+      <img className='img-fluid' onClick={FullScreen} style={imgStyle} src={imgThree} alt="photo" />
+      
       </Tab>
     </Tabs>
+    </>
   );
 }
 

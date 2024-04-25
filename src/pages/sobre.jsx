@@ -41,7 +41,7 @@ const Home = () => {
             linkFive={"Trabalhe Conosco"}
             colors={"black"}
             textdecoration={"none"}
-            name={"CLick"}
+            TitleIcon={"Coffe3R"}
             />
             <div className='card bg-black'>
             <AnimateImg 
