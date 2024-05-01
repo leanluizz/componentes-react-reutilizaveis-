@@ -9,10 +9,11 @@ export default function Footer ({
   github,
   titleOne,
   titleTwo,
-  copy
+  copy,
+  Top
 }){
     return(
-        <footer>
+        <footer style={{marginTop:Top}}>
         <div>
           <a href={github} target="_blank">
             <img src={Github} alt="githublink"  className='github'/>

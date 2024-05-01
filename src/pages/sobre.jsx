@@ -115,6 +115,7 @@ Seja você um apreciador de café ávido ou apenas alguém em busca de um moment
             titleOne={"Feito por Leandro Luiz Ribeiro Gomes"}
             titleTwo={"Landing page example"}
             copy={2022}
+            Top={"210px"}
             />
         </div>
 );
