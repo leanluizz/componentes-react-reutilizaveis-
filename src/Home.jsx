@@ -41,6 +41,7 @@ icon={Icon}
 linkFour={"Sobre nós"}
 linkFourhref={"/Sobre"}
 linkFive={"Trabalhe Conosco"}
+linkFivehref={"/Trabalhe-Conosco"}
 colors={"black"}
 textdecoration={"none"}
 TitleIcon={"Coffe3R"}

@@ -17,7 +17,6 @@ import CardBg from '../image/Sobre/card/fundo-carta.avif'
 import Person from '../image/Sobre/persons/pessoa-servindo.png';
 import WhatsApp from '../image/Contato/whatsappIcon.png';
 import Coffee from '../image/Sobre/cafés-doces/coffee.jpg';
-import Servindo from '../image/Sobre/persons/servindo.png';
 import Contact from '../components/Body/TwoItens';
 import LocalOne from '../image/Sobre/local/localOne.jpg';
 import Cafeteria from '../image/Sobre/local/Cafeteria.jpg';
@@ -39,6 +38,7 @@ const Home = () => {
             linkFour={"Sobre nós"}
             linkFourhref={"/Sobre"}
             linkFive={"Trabalhe Conosco"}
+            linkFivehref={"/Trabalhe-Conosco"}
             colors={"black"}
             textdecoration={"none"}
             TitleIcon={"Coffe3R"}
