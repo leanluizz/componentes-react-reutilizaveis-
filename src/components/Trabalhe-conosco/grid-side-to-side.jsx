@@ -41,7 +41,7 @@ export default function SideToSide ({
         gridTemplateColumns: GridRepeat || 'repeat(2, 2fr)',
         gridGap: '20px',
         color:"white",
-        padding:"10%",
+        padding:"5%",
         textAlign:"center",
         top: Top
     };
