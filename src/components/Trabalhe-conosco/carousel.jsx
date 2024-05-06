@@ -5,9 +5,9 @@ function UncontrolledExample({
   colors, backgroundText,
     titleOne, titleTwo, titleThree,
     textOne, textTwo, textThree,
-    imgOne, imgTwo, imgThree}) {
+    imgOne, imgTwo, imgThree, Spacing}) {
   return (
-    <Carousel variant='mx-auto p-5 m-5 text-center'>
+    <Carousel style={{margin:Spacing}} variant='m-5 text-center'>
       <Carousel.Item>
         <img className='img-fluid rounded-5' src={imgOne} alt="photo" />
         <Carousel.Caption>
