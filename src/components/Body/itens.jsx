@@ -66,6 +66,7 @@ export default function Itens(
         fontFamily:font,
         color:ColorTitle,
         padding:"5%",
+        margin:100,
     }
     const [grid, setgrid] = useState({
         display: window.innerWidth <= 700 ? "flex" : "grid",
