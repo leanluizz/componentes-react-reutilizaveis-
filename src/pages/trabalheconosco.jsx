@@ -100,7 +100,7 @@ export default function TrabalheConosco (){
         <div>
         <form onSubmit={(e) => e.preventDefault()} className='bg-light p-4 m-5'>
         <h1 className='p-5 text-center'>Envie seu currículo para análise</h1>
-         <input className='w-25 mx-auto d-block btn btn-dark text-light rounded-1 outline-0' type="file"/>
+         <input className='w-100 mx-auto d-block btn btn-dark text-light rounded-1 outline-0' type="file"/>
          <button onClick={Send} className='d-block mx-auto m-3 btn btn-dark'>Enviar</button>
      </form>
      <div className={`${AnimateOut} position-absolute start-50 translate-middle ${Bg} rounded-2 w-50`}>
