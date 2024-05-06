@@ -70,7 +70,7 @@ export default function TrabalheConosco (){
         titleTwo={"Tranquilidade"}
         imgThree={imgThree}
         titleThree={"Criatividade"}
-        backgroundText={'transparent'}
+        backgroundText={'black'}
         Spacing={'0px 0px 100px 0px'}
         />
         <SideToSide
