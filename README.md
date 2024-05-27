@@ -1,11 +1,6 @@
 # Landing Page
 
-## Coffee-Page EXAMPLE!
-You can re-use the components:
-
-> DropDown
-
-> Grid
+## Exemplo de um pequeno site de hamburgueria!
 
 Install dependencies for use the app
 
