@@ -1,6 +1,8 @@
 # Landing Page
 
-## Exemplo de um pequeno site de hamburgueria!
+## Exemplo de um pequeno site de uma cafeteria!
+
+Você consegue reutilizar os componentes instalando eles de dentro do repositorio components
 
 Install dependencies for use the app
 
