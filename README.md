@@ -1,7 +1,3 @@
-Claro! Aqui está o texto traduzido para português:
-
----
-
 # Landing Page
 
 ## Exemplo de um pequeno site de uma cafeteria!
