@@ -2,9 +2,17 @@
 
 ## Exemplo de um pequeno site de uma cafeteria!
 
-Você consegue reutilizar os componentes instalando eles de dentro do repositorio components
+[Link](https://components1.vercel.app/)
 
-Instale as dependências para usar o aplicativo
+### Introdução
+
+Essa landing page tem o objetivo de ser um site pessoal de demonstração de um site de caféteria promovendo e divulgando o que possui dentro da caféteria além dos alimentos.
+
+### Componentes
+
+Você consegue reutilizar os componentes instalando eles de dentro do repositorio Componentes na raíz do projeto.
+
+Instale as dependências para usar o aplicativo.
 
 ### `npm i`
 
