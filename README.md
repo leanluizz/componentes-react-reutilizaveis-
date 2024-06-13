@@ -14,6 +14,18 @@ Você consegue reutilizar os componentes instalando eles de dentro do repositori
 
 Instale as dependências para usar o aplicativo.
 
+### Techs usadas
+
+ - JavaScript
+ - ReactJS
+
+### UI
+
+ - React-bootstrap
+ - Bootstrap
+ - Animate.css
+
+
 ### `npm i`
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
