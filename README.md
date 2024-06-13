@@ -100,3 +100,9 @@ Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/
 ---
 
 Espero que isso ajude!
+
+## Contato
+
+email: luizzleandro827@gmail.com
+
+linkedin: [linkedin](https://www.linkedin.com/in/leandroluizz/)
