@@ -10,7 +10,7 @@ Essa landing page tem o objetivo de ser um site pessoal de demonstração de um 
 
 ### Componentes
 
-Você consegue reutilizar os componentes instalando eles de dentro do repositorio Componentes na raíz do projeto.
+Você consegue reutilizar os componentes instalando eles de dentro do repositorio Componentes na pasta src do projeto.
 
 Instale as dependências para usar o aplicativo.
 
